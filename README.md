@@ -47,3 +47,7 @@ Both models are evaluated with and without augmented data to assess DA effective
 ### 4. Statistical Evaluation
 - Results are evaluated statistically using the SciPy library.
 - Visualizations are created with Matplotlib and Seaborn to illustrate performance across datasets and DA techniques.
+
+### Automated Experimentation with Papermill
+
+This repository includes two specialized notebooks, `exe_exp_class.ipynb` and `exe_exp_reg.ipynb`, designed for automating experiments using the [Papermill](https://papermill.readthedocs.io/) library. 
