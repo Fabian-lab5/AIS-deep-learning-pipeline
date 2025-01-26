@@ -5,7 +5,7 @@ This repository provides the pipeline implementation for a project investigating
 The pipeline is divided into four main stages:
 1. **Preprocessing**: Raw AIS data is cleaned, filtered, resampled, and interpolated.
 2. **Data Augmentation**: Synthetic data is generated using three techniques: k-Means, Sequence-VAE, and Geographic Noise Injection.
-3. **Deep Learning Models**: Two tasks are implemented: vessel classification and position prediction using LSTM models.
+3. **Deep Learning Models**: Two tasks are implemented: vessel classification and position prediction using LSTM models (regression).
 4. **Statistical Evaluation**: Results are statistically analyzed and visualized.
 
 ### Pipeline Diagram
