@@ -12,6 +12,16 @@ The pipeline is divided into four main stages:
 
 ![Pipeline Diagram](img/pipeline.png)
 
+---
+
+### 0. **Data**
+The raw AIS data used in this project was sourced from the United States Coastal Office for Coastal Management. Due to size limitations, the data is not included in this repository. To replicate the experiments:
+
+1. Download the AIS dataset from [https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2023/index.html].
+
+The preprocessing notebook will handle cleaning and splitting the data.
+The data used in this study is: AIS_2023_01_01, AIS_2023_05_05, AIS_2023_08_04, AIS_2023_09_23, AIS_2023_12_14
+
 ## Stages and Implementation
 
 ### 1. Preprocessing
